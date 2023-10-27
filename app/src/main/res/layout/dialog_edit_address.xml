@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+>
+
+    <EditText
+        android:id="@+id/edittext_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+
+
+    <EditText
+        android:id="@+id/editTextState_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="State"
+        />
+
+
+    <EditText
+
+        android:id="@+id/edittext_city_edit"
+        android:hint="City"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_below="@+id/editTextState"
+/>
+
+<!--    idEditText-->
+    <EditText
+        android:id="@+id/edittext_id_edit"
+        android:hint="Id"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_below="@+id/edittext_city_edit"
+        android:visibility="gone"
+
+        />
+
+
+    <EditText
+        android:id="@+id/edittext_country_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Country"
+        android:layout_below="@+id/edittext_id_edit"
+
+        />
+
+    <EditText
+        android:id="@+id/edittext_address_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address" />
+
+    <EditText
+        android:id="@+id/edittext_postal_code_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Postal Code" />
+
+    <CheckBox
+        android:id="@+id/checkbox_default_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Default Address" />
+
+
+    <Button
+        android:id="@+id/edit_address_btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDistrict"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="10dp"
+        android:text="SAVE"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</LinearLayout>

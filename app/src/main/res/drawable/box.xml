@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="@color/white" /> <!-- Set your desired background color here -->
+            <corners android:radius="50dp" /> <!-- Adjust the radius as needed -->
+        </shape>
+    </item>
+
+    <item android:id="@android:id/accessibilityActionContextClick">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+
+    <item>
+        <shape
+            android:shape="rectangle">
+            <solid android:color="@color/white" />
+            <stroke
+                android:width="4dp"
+                android:color="#ED7519" /> <!-- Set the border width and color -->
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+
+    <corners
+        android:radius="25dp"/>
+    <solid
+        android:color="#ED7519"/>
+
+
+</layer-list>
